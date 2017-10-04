@@ -1,5 +1,7 @@
 # React Loopback Pattern
-I recently came across a neat react pattern for creating dumb components in situations where it would normally be easier to allow the component to contain internal state. 
+I recently implemented a neat react pattern for creating dumb components in situations where it would normally be easier to allow the component to contain internal state. 
+
+*** I am not claiming this is going to revolutionize anything, it's just a very simple idea (that people are probably already doing) that might make some stuff simpler for anyone who has not seen it yet ***
 
 ## Definition
 The loopback pattern is an extention of the "smart/dumb" component pattern, where dumb components accept two props `data` and the `loopback` function.
